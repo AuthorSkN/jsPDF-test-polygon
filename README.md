@@ -1,0 +1,1 @@
+#Test polygon for jsPDF library (https://github.com/MrRio/jsPDF/)
