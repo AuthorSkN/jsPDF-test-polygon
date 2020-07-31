@@ -6,7 +6,7 @@ function createPdfTtf() {
         floatPrecision: 2
     })
 
-    doc.setFont("time", "italic")
+    doc.setFont("times", "italic")
     doc.text('Hello world!', 10, 10)
 
     const notoSans = doc.loadFile("./src/noto-sans-normal.ttf");
@@ -26,7 +26,7 @@ function createPdfTtfBase64() {
         floatPrecision: 2
     })
 
-    doc.setFont("time", "italic")
+    doc.setFont("times", "italic")
     doc.text('Hello world!', 10, 10)
 
     doc.setFont("NotoSansTtfBase64-normal", "normal")
